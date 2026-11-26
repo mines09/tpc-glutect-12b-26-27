@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glutect · Detetor de glúten · TPC 2026/2027</title>
+  <meta name="description" content="Glutect, um detetor de glúten. Projeto TPC da turma 12.º B do Agrupamento de Escolas da Maia, ano letivo 2026/2027.">
+  <link rel="icon" href="img/logo-glutect.png">
+  <link rel="alternate" hreflang="pt" href="https://mines09.github.io/tpc-glutect-12B-26-27/">
+  <link rel="alternate" hreflang="en" href="https://mines09.github.io/tpc-glutect-12B-26-27/en/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body data-raiz="">
+  <a class="saltar" href="#conteudo">Saltar para o conteúdo</a>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="cabecalho">
+    <div class="contentor">
+      <a class="logo-escola" href="./" title="Início">
+        <img src="img/logo-aemaia.png" alt="Agrupamento de Escolas da Maia" width="413" height="214">
+      </a>
+      <div class="ano-letivo"><small>Ano letivo</small>2026/2027</div>
+      <button class="botao-menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav class="menu" id="menu" aria-label="Secções">
+        <ul>
+          <li><a href="#problema">Problema</a></li>
+          <li><a href="#problemas-parcelares">Problemas parcelares</a></li>
+          <li><a href="#pitch">Pitch</a></li>
+          <li><a href="#cronograma">Cronograma</a></li>
+          <li><a href="#parcerias">Parcerias</a></li>
+          <li><a href="#logotipo">Logótipo</a></li>
+        </ul>
+        <div class="lingua" aria-label="Língua">
+          <span aria-current="true">PT</span>
+          <a href="en/" hreflang="en" lang="en">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===== ABERTURA: logótipo do projeto ===== -->
+    <section class="abertura" id="inicio">
+      <div class="contentor">
+        <img class="logo-projeto" src="img/logo-glutect.png" alt="Logótipo do Glutect: uma lupa sobre uma espiga de trigo" width="640" height="640">
+        <div>
+          <h1>GLUTECT</h1>
+          <p class="subtitulo">Detetor de glúten · TPC 2026/2027</p>
+          <p class="provisorio" data-etiqueta="[PROVISÓRIO]">Frase de apresentação do Glutect: o que é e para quem é. Uma ou duas frases.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROBLEMA CENTRAL E ODS ===== -->
+    <section class="seccao" id="problema">
+      <div class="contentor">
+        <h2>O problema</h2>
+        <p class="intro">O problema central que o Glutect quer resolver e a sua ligação aos Objetivos de Desenvolvimento Sustentável (ODS).</p>
+        <p class="provisorio" data-etiqueta="[PROVISÓRIO]">Texto do problema central: quem é afetado, porque é que é importante e o que acontece hoje.</p>
+        <h3>Ligação aos ODS</h3>
+        <p class="provisorio" data-etiqueta="[PROVISÓRIO]">Explicar em uma ou duas frases como o projeto contribui para cada ODS escolhido.</p>
+        <!-- Trocar cada quadrado pelo ícone oficial do ODS (img/ods-N.png) e o nome certo. -->
+        <div class="ods">
+          <div class="ods-item"><span class="numero">?</span><span class="nome">ODS a definir</span></div>
+          <div class="ods-item"><span class="numero">?</span><span class="nome">ODS a definir</span></div>
+          <div class="ods-item"><span class="numero">?</span><span class="nome">ODS a definir</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROBLEMAS PARCELARES (pelo menos 5) ===== -->
+    <section class="seccao" id="problemas-parcelares">
+      <div class="contentor">
+        <h2>Problemas parcelares</h2>
+        <p class="intro">O problema central divide-se nestes problemas mais pequenos.</p>
+        <ol class="cartoes">
+          <li class="cartao"><span class="num">1</span><h3>Problema parcelar 1</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">Descrição em 2 a 4 frases.</p></li>
+          <li class="cartao"><span class="num">2</span><h3>Problema parcelar 2</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">Descrição em 2 a 4 frases.</p></li>
+          <li class="cartao"><span class="num">3</span><h3>Problema parcelar 3</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">Descrição em 2 a 4 frases.</p></li>
+          <li class="cartao"><span class="num">4</span><h3>Problema parcelar 4</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">Descrição em 2 a 4 frases.</p></li>
+          <li class="cartao"><span class="num">5</span><h3>Problema parcelar 5</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">Descrição em 2 a 4 frases.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== VÍDEO / PITCH ===== -->
+    <section class="seccao" id="pitch">
+      <div class="contentor">
+        <h2>O nosso pitch</h2>
+        <p class="intro">Em menos de 2 minutos, o Glutect explicado por nós.</p>
+        <!-- O vídeo aparece aqui quando se puser o código do YouTube em js/site.js (VIDEO_YOUTUBE). -->
+        <div class="video" id="video">
+          <div class="sem-video">
+            <div><div class="play" aria-hidden="true"></div><strong>Vídeo em breve</strong>O pitch vai estar disponível no nosso canal de YouTube.</div>
+          </div>
+        </div>
+        <p class="nota-legendas">O vídeo tem legendas em inglês.</p>
+      </div>
+    </section>
+
+    <!-- ===== CRONOGRAMA ===== -->
+    <section class="seccao" id="cronograma">
+      <div class="contentor">
+        <h2>Cronograma</h2>
+        <p class="intro">As etapas do projeto, do arranque à entrega.</p>
+        <ol class="linha-tempo">
+          <li><span class="data">[data]</span><h3>Etapa 1</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">O que foi feito nesta etapa.</p></li>
+          <li><span class="data">[data]</span><h3>Etapa 2</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">O que foi feito nesta etapa.</p></li>
+          <li><span class="data">[data]</span><h3>Etapa 3</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">O que foi feito nesta etapa.</p></li>
+          <li><span class="data">15 dez. 2026</span><h3>Entrega da fase 1</h3><p class="provisorio" data-etiqueta="[PROVISÓRIO]">O que é entregue nesta data.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== PARCERIAS CIENTÍFICAS ===== -->
+    <section class="seccao" id="parcerias">
+      <div class="contentor">
+        <h2>Parcerias científicas</h2>
+        <p class="intro">As entidades que nos apoiam com conhecimento científico.</p>
+        <div class="parceria">
+          <img src="img/logo-feup.png" alt="FEUP, Faculdade de Engenharia da Universidade do Porto" width="800" height="278">
+          <div>
+            <h3>FEUP · Faculdade de Engenharia da Universidade do Porto</h3>
+            <p class="provisorio" data-etiqueta="[PROVISÓRIO]">Como a FEUP apoia o projeto e quem é o contacto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HISTÓRIA DO LOGÓTIPO (resumo; a história completa está na sub-página) ===== -->
+    <section class="seccao" id="logotipo">
+      <div class="contentor">
+        <h2>História do logótipo</h2>
+        <div class="resumo-logo">
+          <img src="img/logo-glutect.png" alt="Logótipo final do Glutect, Proposta B · Lupa" width="640" height="640" loading="lazy">
+          <div>
+            <p>O logótipo final é a <strong>Proposta B · Lupa</strong>: uma lupa sobre uma espiga de trigo, com uma linha que representa a deteção do glúten.</p>
+            <p class="provisorio" data-etiqueta="[PROVISÓRIO]">Resumo em duas frases de como se chegou a este logótipo.</p>
+            <a class="botao" href="historia-logo.html">Ver a história completa</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <!-- Os logótipos de parceiros e patrocinadores editam-se em js/site.js -->
+  <footer class="rodape">
+    <div class="contentor">
+      <section class="grupo-logos" id="grupo-parceiros">
+        <h2>Parceiros científicos</h2>
+        <ul></ul>
+      </section>
+      <section class="grupo-logos" id="grupo-patrocinadores">
+        <h2>Patrocinadores</h2>
+        <ul></ul>
+      </section>
+      <div class="rodape-fim">
+        <span>Glutect · TPC · 12.º B · Agrupamento de Escolas da Maia</span>
+        <div class="ano-letivo"><small>Ano letivo</small>2026/2027</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
